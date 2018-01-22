@@ -1,0 +1,7 @@
+- CancelInvoke->取消Invoke调用
+- Invoke->可让某个方法在x秒后调用
+- InvokeRepeating->让某个方法在x秒后调用，并在多个y秒内再次调用
+- IsInvoking->判断某个invok是否已经调用，若已经调用，则返回true
+- StartCoroutine->开始调用协程
+- StopAllCoroutines->停止所有动作的协程函数
+- StopCoroutine->停止某个协程函数
