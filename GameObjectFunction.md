@@ -16,3 +16,7 @@ xxx.SetActive(false);//将xxx物体的活动属性设置为false(包括孩子)�
 //还有一种方法是在代码中动态添加，可见(http://www.xuanyusong.com/archives/3169)
 ```
 - transform->物体的位置信息(无法移除，每个物体都会有)
+- GetComponent->获取组件实例
+```c#
+Debug.Log(xx.GetComponent<Transform>().name)
+```
