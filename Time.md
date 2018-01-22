@@ -1,5 +1,5 @@
 - Time.captureFramerate->通过减慢游戏的回放时间，让两帧之间的游戏截图得以保存
-- Time.deltaTime->完成最后一帧所需要的时间(仅仅可读)
+- Time.deltaTime->完成最后一帧所需要的时间(仅仅可读)(一般可用于物体的运动)
 - Time.fixedDeltaTime->每一帧的固定时间间隔
 - Time.fixedTime->最近的FixedUpdate已经开始的时间，使用秒来记录从游戏开始的时间
 - Time.fixedUnscaledDeltaTime->从最后固定帧到当前帧的秒独立时间间隔
@@ -8,10 +8,10 @@
 - Time.inFixedTimeStep->如果在固定时间停止回调中调用，返回true，否则返回false
 - Time.maximumDeltaTime->一帧能获得的最大时间，物理和其他固定帧速率进行更新
 - Time.maximumParticleDeltaTime->帧可以花费在粒子更新上的最大时间。如果框架比这花的时间长，那么更新被分割成多个较小的更新。
-- Time.realtimeSiceStartup->以秒记，记录从游戏开始到现在的时间
+- Time.realtimeSiceStartup->以秒记，记录从游戏开始到现在的时间(可以用来测试两个方法的运行时间长度)
 - Time.smoothDeltaTime->一个平滑曾长的时间增量
 - Time.time->从游戏开始到现在所用的时间
-- Time.timeScale->传递时间的缩放，可以用于减慢运动的效果
+- Time.timeScale->传递时间的缩放，可以用于减慢运动的效果(每次deltaTime都会乘以这个变量)
 - Time.timeSinceLevelLoad->表达从当前scene开始到目前为止的时间，会随着暂停操作而停止
 - Time.unscaledDeltaTime->不考虑timescale时候与deltaTime相同，若timescale被设置，则无效
 - Time.unscaledTime->不考虑timescale时候与time相同，若timescale被设置，则无效
