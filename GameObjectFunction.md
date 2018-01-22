@@ -40,3 +40,15 @@ GameObject[] gos = GameObject.FindGameObjectsWithTag("xxx");
 ```c#
 GameObject go = GameObject.FindGameObjectWithTag("xxx");
 ```
+- BroadcastMessage->给全体物体发送广播
+- SendMessage->给指定的物体发送广播
+- SendMessageUpwards->对指定的物体以及它的所以父亲发送广播
+- CompareTag->对比两个tag的值是否相等
+- GetComponent->获取组件实例
+- GetComponentInChildren->获取组件的孩子的实例
+- GetComponentInParent->获取组件的父亲的实例
+- GetComponents->获取多个组件的实例，返回数组
+- GetComponentsInChildren->获取组件的多个孩子的实例，返回数组
+- GetComponentsInParent->获取组件的多个父亲的实例，返回数组
+- SetActive->设置物体是否为active状态
+
