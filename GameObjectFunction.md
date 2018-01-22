@@ -20,3 +20,23 @@ xxx.SetActive(false);//将xxx物体的活动属性设置为false(包括孩子)�
 ```c#
 Debug.Log(xx.GetComponent<Transform>().name)
 ```
+- FindObjectOfType->寻找对象
+```c#
+Light l = FindObjectOfType<Light>();//获取一个灯光
+Transform[] ts = FindObjectsOfType<Transform>();//获取所有Transform组件
+foreach(Transform t in ts) {
+  
+}
+```
+- Find->根据名称来查找，返回单个值
+```c#
+GameObject go = GameObject.Find("xxx");
+```
+- FindGameObjectsWithTag->根据tag来查找，返回数组
+```c#
+GameObject[] gos = GameObject.FindGameObjectsWithTag("xxx"); 
+```
+- FindGameObjectWithTag->根据tag来查找，返回单个值
+```c#
+GameObject go = GameObject.FindGameObjectWithTag("xxx");
+```
