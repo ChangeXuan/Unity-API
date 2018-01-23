@@ -32,3 +32,7 @@ Random.InitState((int)System.DateTime.Now.Ticks);
 ```
 - 改变物体的位置或旋转，推荐对刚体进行操作，会比较快
 - 在StreamingAssets文件夹中的资源文件在build中不会被合并
+- 在编辑器下退出游戏
+```c#
+UnityEditor.EditorApplication.isPlaying = false;
+```
