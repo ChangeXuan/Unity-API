@@ -1,0 +1,6 @@
+- magnitude->
+- normalized->
+- sqrmagnitude->
+- this[int]->
+- x->
+- y->
