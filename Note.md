@@ -15,3 +15,14 @@ Joystick Buttons (from a specific joystick): “joystick 1 button 0”, “joyst
 Special keys: “backspace”, “tab”, “return”, “escape”, “space”, “delete”, “enter”, “insert”, “home”, “end”, “page up”, “page down”
 Function keys: “f1”, “f2”, “f3”, …
 ```
+- Verctor是一个结构体，若要修改其中一个坐标
+```c#
+transform.position = new Verctor3(0,0,0);
+// 错误
+transform.position.x = 10;
+// 正确
+Verctor3 newPosition = transform.position;
+newPosition.x = 10;
+transform.position = newPosition;
+
+```
