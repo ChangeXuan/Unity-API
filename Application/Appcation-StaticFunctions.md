@@ -1,0 +1,16 @@
+- CancelQuit->
+- CanStreamedLevelBeLoaded->
+- CaptureScreenshot->
+- ExternalCall->
+- ExternalEval->
+- GetBuildTags->
+- GetStackTraceLogType->
+- GetStreamProgressForLevel->
+- HasProLicense->
+- HasUserAuthorization->
+- OpenURL->
+- Quit->
+- RequestAdvertisingIdentifierAsynx->
+- RequestUserAuthorization->
+- SetStackTraceLogType->
+- Unload->
