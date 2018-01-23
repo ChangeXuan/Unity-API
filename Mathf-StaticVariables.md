@@ -1,0 +1,6 @@
+- Deg2Rad->
+- Epsilon->
+- Infinity->
+- NegativeInfinity->
+- PI->
+- Rad2Deg->
