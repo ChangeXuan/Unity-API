@@ -26,3 +26,7 @@ newPosition.x = 10;
 transform.position = newPosition;
 
 ```
+- 使用时间戳做为随机种子
+```c#
+Random.InitState((int)System.DateTime.Now.Ticks);
+```
