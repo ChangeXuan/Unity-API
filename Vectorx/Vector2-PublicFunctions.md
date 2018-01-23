@@ -1,0 +1,4 @@
+- Equals->
+- Normalize->
+- Set->
+- ToString->
