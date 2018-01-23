@@ -36,3 +36,4 @@ Random.InitState((int)System.DateTime.Now.Ticks);
 ```c#
 UnityEditor.EditorApplication.isPlaying = false;
 ```
+- 有一个比较好的手势插件：easytouch
