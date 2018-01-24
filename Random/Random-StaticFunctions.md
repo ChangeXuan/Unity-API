@@ -1,3 +1,3 @@
-- ColorHSV->
-- InitState->
-- Range->
+- ColorHSV->从HSV颜色空间范围内随机生成颜色
+- InitState->使用种子来初始化随机数生成器
+- Range->返回一个介于min(包括)和max(包括)之间的随机浮点数
