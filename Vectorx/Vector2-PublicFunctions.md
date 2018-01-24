@@ -1,4 +1,4 @@
-- Equals->
-- Normalize->
-- Set->
-- ToString->
+- Equals->判断两个二维向量是否相等
+- Normalize->把向量进行单位化
+- Set->设置Vector2中的x和y分量
+- ToString->返回格式良好的字符串
