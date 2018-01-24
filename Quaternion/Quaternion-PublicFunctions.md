@@ -1,5 +1,5 @@
-- Set->
-- SetFromToRotation->
-- SetLookRotation->
-- ToAngleAxis->
-- ToString->
+- Set->设置四元数中的x，y，z，w分量
+- SetFromToRotation->创建一个从当前的旋转值到目标旋转值
+- SetLookRotation->用指定的向前和向上的方向创建一个旋转
+- ToAngleAxis->将旋转转换为角度轴表示
+- ToString->返回一个格式好的四元数字符串
