@@ -1,6 +1,6 @@
-- magnitude->
-- normalized->
-- sqrmagnitude->
-- this[int]->
-- x->
-- y->
+- magnitude->返回向量的长度
+- normalized->返回单位化后的向量
+- sqrmagnitude->返回向量的平方长度
+- this[int]->分别使用0和1来访问x和y
+- x->向量的x分量
+- y->向量的y分量
