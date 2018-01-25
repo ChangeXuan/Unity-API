@@ -1,0 +1,3 @@
+- gameObject->
+- tag->
+- transform->
