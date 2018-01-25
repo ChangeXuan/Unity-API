@@ -1,0 +1,13 @@
+- assetBundle->
+- bytes->
+- bytesDownloaded->
+- error->
+- isDone->
+- progress->
+- responseheaders->
+- text->
+- texture->
+- textureNonReadable->
+- threadPriority->
+- uploadProgress->
+- url->
