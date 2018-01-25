@@ -1,0 +1,11 @@
+- color->
+- doubleSidedGI->
+- enableInstancing->
+- globalIlluminationFlags->
+- mainTexture->
+- mainTextureOffset->
+- mainTxtureScale->
+- passCount->
+- renderQueue->
+- shader->
+- shaderKeywords->
