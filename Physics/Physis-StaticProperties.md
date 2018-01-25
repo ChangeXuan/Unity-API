@@ -1,0 +1,15 @@
+- AllLayers->
+- autoSimulation->
+- autoSyncTransforms->
+- bounceThreshold->
+- defaultContactOffset->
+- DefaultRaycastLayers->
+- defaultSolverIterations->
+- defaultSolverVelocityIterations->
+- gravity->
+- IgnoreRaycastLayer->
+- interCollisionDistance->
+- interCollisionStiffness->
+- queriesHitBackfaces->
+- queriesHitTriggers->
+- sleepThreshold->
