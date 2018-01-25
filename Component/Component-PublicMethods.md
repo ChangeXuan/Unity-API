@@ -1,0 +1,10 @@
+- BroadCastMessage->
+- CompareTag->
+- GetComponent->
+- GetComponentInChildren->
+- GetComponentInParent->
+- GetComponents->
+- GetComponentsInChildren->
+- GetCOmponentsInParent->
+- SendMessage->
+- SendMessageUpwards->
