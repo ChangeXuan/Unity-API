@@ -1,0 +1,7 @@
+- buildIndex->\
+- isDiry->
+- isloaded->
+- isLoaded->
+- name->
+- path->
+- rootCount->
