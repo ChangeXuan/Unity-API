@@ -1,2 +1,2 @@
-- sceneCount->
-- sceneCountInBuildSettings->
+- sceneCount->取得当前加载的场景总数
+- sceneCountInBuildSettings->生成设置中的场景数量
