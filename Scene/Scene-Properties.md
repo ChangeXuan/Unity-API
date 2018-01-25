@@ -1,7 +1,6 @@
-- buildIndex->\
-- isDiry->
-- isloaded->
-- isLoaded->
-- name->
-- path->
-- rootCount->
+- buildIndex->返回“构建设置”中场景的索引
+- isDiry->判断场景是否被修改
+- isloaded->判断场景是否已加载
+- name->返回当前场景的名称
+- path->返回当前场景的相对路径
+- rootCount->取得变化场景的数量
