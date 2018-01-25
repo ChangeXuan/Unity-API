@@ -1,0 +1,14 @@
+- altitudeAngle->
+- azimuthAngle->
+- deltaPosition->
+- deltaTime->
+- fingerId->
+- maximumPossiblePressure->
+- phase->
+- position->
+- pressure->
+- radius->
+- radiusVariance->
+- rawPosition->
+- tapCount->
+- type->
