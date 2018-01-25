@@ -1,2 +1,2 @@
-- GetRootGameObjects->
-- IsVaild->
+- GetRootGameObjects->返回场景中的所有根游戏对象，返回值为GameObject数组
+- IsVaild->判断场景是否是一个有效的场景
