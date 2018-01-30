@@ -37,3 +37,10 @@ Random.InitState((int)System.DateTime.Now.Ticks);
 UnityEditor.EditorApplication.isPlaying = false;
 ```
 - 有一个比较好的手势插件：easytouch
+- 不显示编号为cs0777的警告
+```c#
+#pragma warning disable 0777
+```
+
+- 在StreamingAssets文件夹中的资源文件在build中不会被合并编号
+- 在StreamingAssets文件夹中的资源文件在build中不会被合并
