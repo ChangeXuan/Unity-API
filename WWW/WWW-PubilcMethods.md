@@ -1,5 +1,5 @@
-- Dispost->
-- GetAudioClip->
-- GetAudioClipCompressed->
-- GetMovieTexture->
-- LoadImageIntoTexture->
+- Dispost->该功能可用于中止正在下载的进程
+- GetAudioClip->返回从下载数据生成的AudioClip
+- GetAudioClipCompressed->返回在内存中压缩的下载数据生成的AudioClip
+- GetMovieTexture->返回从下载的数据生成的MovieTexture
+- LoadImageIntoTexture->用下载数据中的图像替换现有的Texture2D的内容
