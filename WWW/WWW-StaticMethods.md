@@ -1,3 +1,3 @@
-- EscapeURL->
-- LoadFromCacheOrDownload->
-- UnEscapeURL->
+- EscapeURL->将字符串转义为URL
+- LoadFromCacheOrDownload->从缓存中加载指定版本号的AssetBundle
+- UnEscapeURL->将URL转义为字符串
