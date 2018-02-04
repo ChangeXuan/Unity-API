@@ -1,7 +1,7 @@
-- allCameras->
-- allCamerasCount->
-- current->
-- main->
-- onPostrender->
-- onPreCull->
-- onPreRender->
+- allCameras->返回场景中已经启用的相机
+- allCamerasCount->返回场景中相机的数量
+- current->取得当前的相机
+- main->取得第一个标记为“mianCamera”的相机
+- onPostrender->相机的触发事件
+- onPreCull->\
+- onPreRender->\
