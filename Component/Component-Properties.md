@@ -1,3 +1,3 @@
-- gameObject->
-- tag->
-- transform->
+- gameObject->该组件附加到的游戏对象
+- tag->该对象的标签
+- transform->对象的transform
