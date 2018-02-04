@@ -1,3 +1,3 @@
-- Move->
-- SimpleMove->
-- OnControllerColliderHit->
+- Move->移动
+- SimpleMove->简单移动
+- OnControllerColliderHit->碰撞时触发
