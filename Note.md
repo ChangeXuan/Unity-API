@@ -44,3 +44,4 @@ UnityEditor.EditorApplication.isPlaying = false;
 
 - 在StreamingAssets文件夹中的资源文件在build中不会被合并编号
 - 在StreamingAssets文件夹中的资源文件在build中不会被合并
+- 打开动画快捷键ctrl+6
