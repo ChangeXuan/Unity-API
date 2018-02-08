@@ -45,3 +45,17 @@ UnityEditor.EditorApplication.isPlaying = false;
 - 在StreamingAssets文件夹中的资源文件在build中不会被合并编号
 - 在StreamingAssets文件夹中的资源文件在build中不会被合并
 - 打开动画快捷键ctrl+6
+- get请求
+```c#
+using LitJson
+IEnumerator getText(string url) {
+		using (UnityWebRequest www = UnityWebRequest.Get(url)) {
+			yield return www.Send();
+			if (www.isNetworkError || www.isHttpError) {
+				Debug.Log(www.error);
+			} else {
+				jsonData = JsonMapper.ToObject<NetModel>(www.downloadHandler.text);
+			}
+		}
+	}
+```
