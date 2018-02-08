@@ -1,0 +1,7 @@
+- Abort->
+- Dispose->
+- GetRequestHeader->
+- GetResponseHeader->
+- GetResponseHeaders->
+- SendWebRequest->
+- SetRequestHeader->
