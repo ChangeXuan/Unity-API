@@ -1,0 +1,6 @@
+- kHttpVerbCREATE->
+- kHttpVerbDELETE->
+- kHttpVerbGET->
+- kHttpVerbHEAD->
+- kHttpVerbPOST->
+- kHttpVerbPUT->
