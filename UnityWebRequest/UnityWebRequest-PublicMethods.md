@@ -1,7 +1,7 @@
-- Abort->
-- Dispose->
-- GetRequestHeader->
-- GetResponseHeader->
-- GetResponseHeaders->
-- SendWebRequest->
-- SetRequestHeader->
+- Abort->如果正在进行，尽快停止UnityWebRequest
+- Dispose->表示这个UnityWebRequest不再被使用，并且应该清除它正在使用的任何资源
+- GetRequestHeader->检索自定义请求标头的值
+- GetResponseHeader->从收到的最新Http响应中检索响应头的值
+- GetResponseHeaders->检索包含此UnityWebRequest在最新的HTTP响应中收到的所有响应头的字典
+- SendWebRequest->开始与远程服务器进行通讯
+- SetRequestHeader->将http请求标头设置为自定义
