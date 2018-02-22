@@ -64,3 +64,32 @@ IEnumerator getText(string url) {
 - UI层只负责改变ui的显示，不进行其他负责操作
 - 可以使用Resources来加载资源文件
 - 使用model来做中间桥梁
+- 使用content size fitter来进行文本框的大小自适应
+- 检测鼠标是否在某个组件上的回调函数
+```c#
+public void OnPointerEnter(PointerEventData eventData){}
+public void OnPointerExit(PointerEventData eventData){}
+```
+- text组件中的Raycast targer可以控制是否会被射线检测到
+- c#的事件机制
+```c#
+// 在某个类中定义两个事件变量
+public static Action<Transform> oneAction;
+public statci Action twoAction;
+// 定义两个事件函数
+public void action_1(Transform actionTransform) {}
+public void action_2() {}
+// 向事件变量中加入事件函数
+xxx.oneAction += action_1;
+xxx.twoAction += action_2;
+// 检测事件是否为空,并调用
+if(oneAction!=null) {
+    oneAction(transform)
+}
+```
+- 使用stringBuilder来显示文本框是个很好的选择
+- 把鼠标点转换为画布点
+```c#
+Vector2 position;
+RectTransformUtility.ScreenPointToLocalPointInRectangle(GameObject.Find("Canvas").transform as RectTransform,Input.mousePosition,null,out position);
+```
