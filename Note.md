@@ -63,3 +63,4 @@ IEnumerator getText(string url) {
 - 可以把canvas scaler的UIScaleMode设置为scale with screen size让ui自适应
 - UI层只负责改变ui的显示，不进行其他负责操作
 - 可以使用Resources来加载资源文件
+- 使用model来做中间桥梁
