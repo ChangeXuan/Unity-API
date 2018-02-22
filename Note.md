@@ -93,3 +93,27 @@ if(oneAction!=null) {
 Vector2 position;
 RectTransformUtility.ScreenPointToLocalPointInRectangle(GameObject.Find("Canvas").transform as RectTransform,Input.mousePosition,null,out position);
 ```
+- 使用#regison可以让代码折叠
+```c#
+#region someCode
+xxxx
+xxx
+xxx
+#endregion
+```
+- 鼠标拖拽回调函数
+```c#
+public void OnBeginDrag(PointerEventData eventData) {
+    if (eventData.button == PointerEventData.InputButton.Left) {
+    	//
+    }
+}
+public void OnDrag(PointerEventData eventData) {}
+public void OnEndDrag(PointerEventData eventData) {}
+```
+- 拖拽的思路是
+```
+1.当开始拖拽时，复制当前拖拽的组件跟随鼠标，并记录当前拖拽的组件的原来位置
+2.当拖拽到空格子时，射线找寻格子组件并放入
+3.当拖拽到有物体的格子时，把格子内的物体放入拖拽组件的原来位置，并把拖拽组件放入该格子
+```
