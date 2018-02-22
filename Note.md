@@ -59,3 +59,7 @@ IEnumerator getText(string url) {
 		}
 	}
 ```
+- 在构建物品时，可先创建一个父类(价格，名字等共有信息)，然后在让武器，防具，物体继承自父类
+- 可以把canvas scaler的UIScaleMode设置为scale with screen size让ui自适应
+- UI层只负责改变ui的显示，不进行其他负责操作
+- 可以使用Resources来加载资源文件
