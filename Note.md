@@ -117,3 +117,4 @@ public void OnEndDrag(PointerEventData eventData) {}
 2.当拖拽到空格子时，射线找寻格子组件并放入
 3.当拖拽到有物体的格子时，把格子内的物体放入拖拽组件的原来位置，并把拖拽组件放入该格子
 ```
+- shift+alt等比放大，alt对称放大
