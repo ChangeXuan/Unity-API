@@ -124,3 +124,4 @@ PlayerPrefs.SetInt("key",value);
 PlayerPrefs.GetInt("key",0);//若该key没有对应的值，则返回0
 ```
 - 尖括号<>表示泛型输入
+- 动画编辑中，在查看动画波形时，可以按住shift键来只放大纵坐标。
