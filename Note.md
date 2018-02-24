@@ -123,3 +123,4 @@ public void OnEndDrag(PointerEventData eventData) {}
 PlayerPrefs.SetInt("key",value);
 PlayerPrefs.GetInt("key",0);//若该key没有对应的值，则返回0
 ```
+- 尖括号<>表示泛型输入
