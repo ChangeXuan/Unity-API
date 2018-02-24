@@ -118,3 +118,8 @@ public void OnEndDrag(PointerEventData eventData) {}
 3.当拖拽到有物体的格子时，把格子内的物体放入拖拽组件的原来位置，并把拖拽组件放入该格子
 ```
 - shift+alt等比放大，alt对称放大
+- Unity自带的小型数据储存(在windows中存放在注册表)
+```c#
+PlayerPrefs.SetInt("key",value);
+PlayerPrefs.GetInt("key",0);//若该key没有对应的值，则返回0
+```
